@@ -70,6 +70,8 @@ void Error_Handler(void);
 #define SERVO_C_GPIO_Port GPIOA
 #define SERVO_D_Pin GPIO_PIN_3
 #define SERVO_D_GPIO_Port GPIOA
+#define SPI1_CS_Pin GPIO_PIN_6
+#define SPI1_CS_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 #define LED_PIN LED_ESTADO_GPIO_Port, LED_ESTADO_Pin
 /* USER CODE END Private defines */
